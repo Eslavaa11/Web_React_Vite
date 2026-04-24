@@ -1,4 +1,4 @@
-export default function Cart({ cart, remove, updateQty }) {
+export default function Cart({ cart, remove, updateQty, clearCart }) {
   const total = cart.reduce((acc, item) => acc + item.price * item.qty, 0)
 
   return (
@@ -18,6 +18,10 @@ export default function Cart({ cart, remove, updateQty }) {
         <p className="empty-cart">Tu carrito está vacío.</p>
       ) : (
         <>
+          <button className="clear-cart-btn" onClick={clearCart}>
+            Vaciar carrito
+          </button>
+
           <div className="cart-list">
             {cart.map((item) => (
               <div className="cart-item" key={item.cartKey}>

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer" id="contacto">
       <h2>Mercado Negro D.C</h2>
       <p>Moda, tecnología y accesorios en una experiencia e-commerce moderna.</p>
-      <span>Proyecto desarrollado con React + Vite</span>
+      <span>Acceso a productos únicos, sin límites y sin excusas.</span>
     </footer>
   )
 }
