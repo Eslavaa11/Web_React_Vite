@@ -19,10 +19,18 @@ Aplicación web tipo e-commerce desarrollada con React + Vite.
 - JavaScript (ES6+)
 - CSS
 
+## Deploy
+
+https://web-react-vite-eta.vercel.app/
+
+## Autor
+
+Andres Eslava
+
 ## Instalación
 
 ```bash
 npm install
 npm run dev
 
-Autor: Andres Eslava
+
